@@ -16,10 +16,12 @@ body {
 
 .card-container {
     background-color: var(--white);
-    height: 500px;
-    width: 320px;
+    height: auto;
+    width: 330px;
     border-radius: 10px;
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
     flex-direction: column;
 }
 
@@ -27,18 +29,33 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 10px;
-    margin: 12px;
+    margin: 15px;
+    text-align: center;
 }
 
 .card-info {
     text-align: center;
-    margin: 16px;
+    margin: 0 20px 16px;
 }
 
 .card-info h2 {
     font-size: 24px;
+    font-weight: 700;
 }
 .card-info p {
     color: var(--grayish-blue);
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--grayish-blue);
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    
 }
